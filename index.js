@@ -19,7 +19,7 @@ const client = new Client({
 
 client.on('qr', (qr) => {
     qrcode.generate(qr, { small: true });
-    console.log('Hidayat bhai, QR Code scan karein!');
+    console.log('Mr khan bhai, QR Code scan karein!');
 });
 
 client.on('ready', () => {
